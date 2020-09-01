@@ -1,0 +1,26 @@
+{% extends 'headerPage.html' %}
+
+{% block content%}
+
+    <h2>Ask Hagrid a question..</h2>
+
+    
+    <br>
+   
+    <form method="post" enctype="multipart/form-data" action="question_answering">
+  
+ {% csrf_token %}
+ <div class="col-md-4 col-sm-4"><label for="fname">Enter question here:</label> </div> <input name="question" type="text" value = {{temp.question}}><br><br>
+ <br>
+
+ 
+ <input type="submit" value="Submit" ></div>
+
+ <h2>Hagrid says...   {{predictedLabel}}</h2>
+
+
+</form>
+<br>
+
+
+{% endblock %}
