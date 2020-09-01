@@ -1,0 +1,43 @@
+{"QA_database": [
+			{"Query_class": "call_hagrid",
+			 "Questions": ["Hagrid!", "Hello Hagrid!", "Hi Hagrid!", "Hey Hagrid!"],
+			 "Answers": ["Hey there! Yeh lookin fer me?"]},
+
+			 {"Query_class": "gen_help",
+			 "Questions": ["I need your help!", "Can you help me?", "What can you do?", "Help"],
+			 "Answers": ["Being the Gamekeeper of this reserve, I'm to help yeh with yer quests in this region.", "What's bothering yeh?"]},
+
+			 {"Query_class": "landscape_details",
+			 "Questions": ["Where am I?", "What is this region?", "What is this place?"],
+			 "Answers": ["Yeh've been wandering the land of <<insert place>>."]},
+
+			 {"Query_class": "game_details",
+			 "Questions": ["Tell me about this game", "Game Info", "Information", "What am I supposed to do?", "Where should I go?", "What is the quest?", "What is this game?", "What do I do?", "What is the objective of this game?", "How to play this game?", "Game objectives"],
+			 "Answers": ["You've been wandering the land of <insert place>. I hear that some sweet rewards are hidden in Easter Eggs all over this place. Help me find them to avail the rewards within.", 
+			 				"You've been wandering the land of <insert place>. Search the region far and wide to avail exciting rewards."]},
+
+			 {"Query_class": "egg_details",
+			 "Questions": ["I do not see any eggs.", "Where are the eggs?", "What eggs?", "Tell me about the eggs", "What next?", "Where is the egg?", "Where do I find the egg?", "Where can I find the egg?", "Where could I find the egg?", "Where would I find the egg?"],
+			 "Answers": ["The eggs are scattered all over the region. Seek and ye shall find", "The eggs are scattered all over the region. Hover over yer egg to obtain the reward."]},
+
+			 {"Query_class": "egg_disappear",
+			 "Questions": ["Where did the egg go?", "The egg just vanished", "Disappearing eggs?", "What do I do with the egg?", "I found the egg", "What after that?"],
+			 "Answers": ["Hover over yer egg to obtain the reward. Once yeh're done, the egg will respawn elsewhere with a chance of an even higher reward. Magical innit?"]},
+
+			 {"Query_class": "game_dev",
+			 "Questions": ["Is the game complete?", "Newer version", "Game update"],
+			 "Answers": ["<<Insert answer here...>>"]},
+			
+			 {"Query_class": "pos_reviews",			
+			 "Questions": ["I like the game", "This game is fun", "I am enjoying the game", "I love the game", "The game is nice", "The game is good", "This game is wonderful", "This game is awesome", "This game is amazing"],
+			 "Answers": ["How lovely!! I'm sure you'll be thrilled with upcoming update. Stay tuned!"]},
+
+			 {"Query_class": "neg_reviews",
+			 "Questions": ["The game sucks", "This game is boring", "I am tired", "I hate this game", "I hate this", "I dislike the game"],
+			 "Answers": ["I'm sad yeh feel this way. Stick around fer the update. Exciting stuff coming soon!!."]},
+
+			 {"Query_class": "goodbye",
+			 "Questions": ["Thanks for your help", "Thank you", "Goodbye", "Have a great day", "I am done", "Bye"],
+			 "Answers": ["My pleasure! See ya around. Have fun!"]}
+			]
+}
