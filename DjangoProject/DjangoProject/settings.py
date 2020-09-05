@@ -26,7 +26,7 @@ SECRET_KEY = '(1l3gxwths*q=fn@xakr0k%%6qm=$wr8#%p&p*=es_o7%(b3*0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['intense-beach-88347.herokuapp.com',]
+ALLOWED_HOSTS = ['intense-beach-88347.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
